@@ -8,6 +8,13 @@ export default function App() {
     email: "",
     phone: "",
     address: "",
+    profile: "",
+    schoolName: "",
+    graduationYear: "",
+    schoolDescription: "",
+    skill1: "",
+    skill2: "",
+    skill3: "",
   });
 
   return (
@@ -16,7 +23,7 @@ export default function App() {
         personalInfo={personalInfo}
         setPersonalInfo={setPersonalInfo}
       />
-      <Preview />
+      <Preview personalInfo={personalInfo} />
     </>
   );
 }

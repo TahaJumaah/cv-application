@@ -16,7 +16,7 @@ body {
   align-items: flex-start;
 }
 .left {
-  width: 40%;
+  width: 30%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -24,10 +24,112 @@ body {
   align-items: center;
 }
 .right {
-  width: 60%;
+  width: 70%;
   height: 100%;
   display: flex;
   flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.name {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  background-color: rgb(0, 53, 100);
+  font: 2.5rem "Roboto", sans-serif;
+  color: rgb(247, 243, 243);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  gap: 3rem;
+  width: 100%;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-right: 3px solid rgb(0, 53, 100);
+  padding: 0.5rem;
+  width: 30%;
+}
+.contact-details p {
+  overflow-wrap: break-word;
+  width: 100%;
+  /* white-space: pre-line; */
+}
+
+.profile-details {
+  display: block;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+  height: auto;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.profile-details p {
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 53, 100);
+  /* margin: 0.5rem; */
+  height: auto;
+  overflow-wrap: break-word;
+  text-align: left;
+}
+
+.education {
+  /* border-top: 3px solid rgb(0, 53, 100); */
+  /* padding-top: 2.5%; */
+  width: 100%;
+}
+.education-information {
+  display: flex;
+  flex-direction: column;
+}
+.personal-information {
+  display: flex;
+  flex-direction: column;
+}
+.education-skills {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.education-skills h2 {
+  padding-left: 4%;
+  margin: 10px;
+}
+.education {
+  width: 50%;
+  border-right: 3px solid rgb(0, 53, 100);
+}
+.school-description {
+  overflow-wrap: break-word;
+}
+.school-name {
+  font-weight: bold;
+}
+.skills {
+  width: 50%;
+}
+
+.skills-information {
+  display: flex;
+  flex-direction: column;
 }
